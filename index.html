@@ -5,32 +5,36 @@
     <title>Studio</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <header id="navbar">
+    <header class="header">
         <nav>
             <a href="/" class="logo"><span>Web</span>Studio</a>
-            <ul>
+            <ul class="nav">
                 <li><a href="/index.html">Студия</a></li>
                 <li><a href="/portfolio.html">Портфолио</a></li>
                 <li><a href="">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
+        <ul class="contact">
             <li><a href="mailto:info@example.com">info@devstudio.com</a></li>
             <li><a href="tel:+380991111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
 
-    <main>
-        <section>
-            <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-            <a href="">Заказать услугу</a>
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero_title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+            <button class="hero_btn">Заказать услугу</button>
         </section>
 
-        <section>
+        <section class="info">
             <ul>
                 <li>
                     <h3>Внимание к деталям</h3>
@@ -60,7 +64,7 @@
         </section>
 
         <section>
-            <h2>Чем мы занимаемся</h2>
+            <h2 class="title">Чем мы занимаемся</h2>
             <ul>
                 <li><img src="images/img1.jpg" alt="" width="370"></li>
                 <li><img src="images/img2.jpg" alt="" width="370"></li>
@@ -68,8 +72,8 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Наша команда</h2>
+        <section class="team">
+            <h2 class="title">Наша команда</h2>
             <ul>
                 <li>
                     <img src="images/img4.jpg" alt="" width="270">
@@ -95,11 +99,11 @@
         </section>
     </main>
 
-    <footer>
-        <a href="/" class="logo"><span>Web</span>Studio</a>
+    <footer class="footer">
+        <a href="/" class="footer_logo"><span>Web</span>Studio</a>
         <address>
             <p>г. Киев, пр-т Леси Украинки, 26</p>
-            <ul>
+            <ul class="footer_contact">
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
                 <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
             </ul>
